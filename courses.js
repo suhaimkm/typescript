@@ -9,11 +9,9 @@ class courses {
         this.instructor = i;
         this.duration = d;
         this.level = l;
-    }   
+    }
 
 }
-
-
 
 const courses1 = new courses("english", "arshad", 3, "Beginner");
 const courses2 = new courses("java", "mugni", 2, "Advanced");
@@ -23,7 +21,7 @@ const courses4 = new courses("javascript", "arshad", 4, "Beginner");
 let allCourses = [];
 allCourses.push(courses1, courses2, courses3, courses4);
 console.log(allCourses);
-let start = allCourses.filter((course =>course.level == "Beginner"));
+let start = allCourses.filter((course => course.level == "Beginner"));
 console.log(start);
-let total = allCourses.reduce((total,course) => total +course.duration, 0);
+let total = allCourses.reduce((total, course) => total + course.duration, 0);
 console.log(`${total}hrs`);
