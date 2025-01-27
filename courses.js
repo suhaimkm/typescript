@@ -16,7 +16,7 @@ class courses {
 const courses1 = new courses("english", "arshad", 3, "Beginner");
 const courses2 = new courses("java", "mugni", 2, "Advanced");
 const courses3 = new courses("c++", "aeraf", 3, "Intermediate,");
-const courses4 = new courses("javascript", "arshad", 4, "Beginner");
+const courses4 = new courses("javascript", "shawoor", 4, "Beginner");
 
 let allCourses = [];
 allCourses.push(courses1, courses2, courses3, courses4);
